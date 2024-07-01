@@ -239,6 +239,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .post_display,#postList{
+        /* width: -webkit-fill-available; */
+        font-size: clamp(100%, 150%, 200%);
+        padding-top: 3vh;
+
+    }
     .main_page {
         flex-direction: column;
         height: auto;
